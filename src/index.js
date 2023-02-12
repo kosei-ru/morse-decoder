@@ -42,7 +42,7 @@ function decode(expr) {
     let codeMorse;
     let codeBinary;
 
-    for (let i = 0; i < expr.length; i+=10) {
+    for (let i = 0; i < expr.length; i += 10) {
       codeBinary = expr.slice(i, i + 10);
       if (codeBinary == '**********') {
         result += ' ';
